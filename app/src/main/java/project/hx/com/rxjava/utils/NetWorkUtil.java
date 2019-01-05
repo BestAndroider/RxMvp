@@ -26,7 +26,7 @@ public class NetWorkUtil {
      * @return
      * @throws Exception
      */
-    public static boolean isMobileDataEnable(Context context) throws Exception {
+    /*public static boolean isMobileDataEnable(Context context) throws Exception {
 
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getApplicationContext().getSystemService(CONNECTIVITY_SERVICE);
         boolean isMobileDataEnable;
@@ -35,12 +35,12 @@ public class NetWorkUtil {
                 connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnectedOrConnecting();
 
         return isMobileDataEnable;
-    }
+    }*/
 
     /**
      * 判断是否有网络连接
      */
-    public static boolean isNetworkAvailable(Context context) {
+    /*public static boolean isNetworkAvailable(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getApplicationContext().getSystemService(CONNECTIVITY_SERVICE);
         boolean isConnected = false;
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
@@ -57,5 +57,5 @@ public class NetWorkUtil {
 
         return isConnected;
     }
-
+*/
 }
